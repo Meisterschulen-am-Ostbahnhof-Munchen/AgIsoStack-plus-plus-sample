@@ -1,3 +1,3 @@
-[submodule "sample/components/AgIsoStack-plus-plus/lib"]
-	path = sample/components/AgIsoStack-plus-plus/lib
+[submodule "sample/AgIsoStack-plus-plus"]
+	path = sampleAgIsoStack-plus-plus
 	url = https://github.com/Meisterschulen-am-Ostbahnhof-Munchen/AgIsoStack-plus-plus.git
