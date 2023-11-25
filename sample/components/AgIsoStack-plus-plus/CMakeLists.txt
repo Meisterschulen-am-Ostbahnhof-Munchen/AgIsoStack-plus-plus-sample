@@ -8,6 +8,7 @@ idf_component_register()
 
 include_directories(${IDF_PATH}/components/driver/twai/include)
 include_directories(${IDF_PATH}/components/driver/gpio/include)
+include_directories(${IDF_PATH}/components/pthread/include)
 
 
 # Set CAN_DRIVER to TWAI, as we are on ESP32
