@@ -29,3 +29,6 @@ endfunction(prepend)
 add_subdirectory("isobus/utility")
 add_subdirectory("isobus/isobus")
 add_subdirectory("isobus/hardware_integration")
+
+
+target_link_libraries(${COMPONENT_LIB} INTERFACE Isobus HardwareIntegration Utility)
