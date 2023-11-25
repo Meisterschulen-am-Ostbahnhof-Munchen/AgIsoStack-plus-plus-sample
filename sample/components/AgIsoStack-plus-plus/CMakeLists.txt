@@ -26,6 +26,6 @@ function(prepend var prefix)
 endfunction(prepend)
 
 # Add subdirectories
-add_subdirectory("AgIsoStack-plus-plus/utility")
-add_subdirectory("AgIsoStack-plus-plus/isobus")
-add_subdirectory("AgIsoStack-plus-plus/hardware_integration")
+add_subdirectory("isobus/utility")
+add_subdirectory("isobus/isobus")
+add_subdirectory("isobus/hardware_integration")
