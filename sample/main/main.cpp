@@ -71,7 +71,7 @@ extern "C" const uint8_t object_pool_end[] asm("_binary_object_pool_iop_end");
 extern "C" void app_main()
 {
 	// Automatically load the desired CAN driver based on the available drivers
-	twai_general_config_t twaiConfig = TWAI_GENERAL_CONFIG_DEFAULT(GPIO_NUM_21, GPIO_NUM_22, TWAI_MODE_NORMAL);
+	twai_general_config_t twaiConfig = TWAI_GENERAL_CONFIG_DEFAULT(GPIO_NUM_4, GPIO_NUM_5, TWAI_MODE_NORMAL);
 	twai_timing_config_t twaiTiming = TWAI_TIMING_CONFIG_250KBITS();
 	twai_filter_config_t twaiFilter = TWAI_FILTER_CONFIG_ACCEPT_ALL();
 	std::shared_ptr<isobus::CANHardwarePlugin> canDriver = std::make_shared<isobus::TWAIPlugin>(&twaiConfig, &twaiTiming, &twaiFilter);
