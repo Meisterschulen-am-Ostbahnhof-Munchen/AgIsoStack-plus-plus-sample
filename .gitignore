@@ -32,3 +32,5 @@
 *.app
 
 sample/sdkconfig
+
+*.old
